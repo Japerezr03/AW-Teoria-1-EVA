@@ -1,0 +1,59 @@
+/*Contenor de banderas*/
+.contenetor {
+    display: flex;
+}
+
+/*Extremadura*/
+.extremadura {
+    border-color: #000000;
+    border-style: solid;
+    width: fit-content;
+}
+
+.ext1 {
+    background-color: #00ff00;
+    width: 400px;
+    height: 100px;
+}
+
+.ext2 {
+    background-color: #ffffff;
+    width: 400px;
+    height: 100px;
+}
+
+.ext3 {
+    background-color: #000000;
+    width: 400px;
+    height: 100px;
+    ;
+}
+
+.espacio_bandera{
+    margin-left: 20px;
+}
+
+/*España*/
+.españa {
+    border-color: #000000;
+    border-style: solid;
+    width: fit-content;
+}
+
+.esp1 {
+    background-color: #ff0000;
+    width: 400px;
+    height: 100px;
+}
+
+.esp2 {
+    background-color: #ffff00;
+    width: 400px;
+    height: 100px;
+}
+
+.esp3 {
+    background-color: #ff0000;
+    width: 400px;
+    height: 100px;
+}

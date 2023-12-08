@@ -1,0 +1,147 @@
+/*Colores css*/
+/*De fondo de color*/
+.fondo_color {
+    background-color: aliceblue;
+}
+
+/*Al propio text*/
+.texto {
+    color: antiquewhite;
+}
+
+/*Al borde, tamaño, tipo y color*/
+.borde {
+    border: 2px solid tomato;
+}
+
+
+/*Fondo imagen*/
+/*Fondo*/
+.fondo_imagen {
+    background-image: url(..);
+}
+
+/*No repetir fondo*/
+.fondo_repetir {
+    background-repeat: no-repeat;
+}
+
+/*Posicion de fondo*/
+.fondo_posicion {
+    background-position: right top;
+}
+
+
+/*Ancho y alto*/
+/*Ancho*/
+.ancho {
+    width: auto;
+}
+
+/*Alto*/
+.alto {
+    height: auto;
+}
+
+/*Desbordamiento visible*/
+.desbordamiento {
+    overflow: auto;
+}
+
+/*Desbordamiento oculto*/
+.desbordamiento {
+    overflow: hidden;
+}
+
+/*Desbordamiento con barra de desplazamiento*/
+.desbordamiento {
+    overflow: scroll;
+}
+
+/*Desbordamiento automatico*/
+.desbordamiento {
+    overflow: auto;
+}
+
+/*Caja*/
+/*Padding (relleno)*/
+.relleno {
+    padding: 20px 20px 20px 20px;
+}
+
+/*Border (borde de padding)*/
+.borde_relleno {
+    border: 20px 20px 20px 20px;
+}
+
+/*Border color*/
+.borde_color {
+    border: aqua;
+}
+
+/*Border estilo*/
+.borde_estilo {
+    border: solid;
+}
+
+/*Marign (espacio de otros objetos)*/
+.margen {
+    margin: 20px 20px 20px 20px;
+}
+
+
+/*Estilo para texto*/
+/*Color letra*/
+.color_texto {
+    color: black;
+}
+
+/*Color letra*/
+.color_fondo {
+    background-color: red;
+}
+
+/*Tipo de letra*/
+.tipo_letra {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*Estilo de letra*/
+.estilo_letra {
+    font-style: italic
+}
+
+/*Grosor*/
+.grosor_letra{
+font-weight:bold;
+}
+
+/*Tamaño*/
+.tamaño_letra{
+    font-size: 30px;
+}
+
+/*Alineacion horizontal*/
+.alineacion_horizontal{
+    text-align: center;
+}
+
+/*Alineacion vertica.*/
+.alineacion_vertical{
+    vertical-align: top;
+}
+
+/*Subrayado*/
+.subrayado_texto{
+    text-decoration-line: underline;
+}
+
+/*Color de linea*/
+.color_linea{
+    text-decoration-color: blue;
+}
+
+/*Transformar texto*/
+.transformar_texto{
+    text-transform: capitalize;
+}

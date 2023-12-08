@@ -1,0 +1,9 @@
+.lista-ordenadaABC{
+    list-style-type: lower-alpha
+}
+
+hr {
+    height: 4px;
+    background-color: blue;
+    width: 300px;
+}

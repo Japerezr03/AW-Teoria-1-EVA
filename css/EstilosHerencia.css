@@ -1,0 +1,34 @@
+p {
+    color: brown;
+    font-size: 18;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.primer-parrafo {
+    background-color: aqua;
+    font-size: 35px;
+}
+
+body {
+    background-color: chocolate;
+}
+
+.augustobriga {
+    font-style: italic;
+    font-weight: 900;
+
+}
+
+.cajas{
+    width: 200px;
+    height: 200px;
+}
+
+/*Esto es un*/
+.rojo{
+    background-color: red;
+}
+
+.verde{
+    background-color:green;
+}
