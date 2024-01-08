@@ -1,0 +1,40 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+table, th, td, caption{
+    border: 2px solid #000000;
+    /**con esta propiedad unifiacamos los bordes**/
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+caption{
+    background-color: #000;
+    color: #fff;
+    font-size: 22px;
+}
+
+th{
+    background-color: #20bd3a;
+    font-size: 20px;
+}
+
+tr:hover{
+background-color: coral;
+}
+
+/**Impares coloreados**/
+tr:nth-last-child(even){
+    background: #8a2727;
+}
+
+/**Pares coloreados**/
+tr:nth-last-child(odd){
+    background: #2043a5;
+}
+
+tfoot > tr > td{
+    background-color: #329c52;
+}

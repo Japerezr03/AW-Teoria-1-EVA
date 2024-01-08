@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <link rel="stylesheet" href="css/10_Tablas.css">
+</head>
+
+<body>
+    <!--Tabla-->
+    <table>
+
+        <!--Título de la tabla-->
+        <caption>Componentes de ordenador</caption>
+
+        <!--Fila de cabecera-->
+        
+        <thead>
+        <!---->
+            <tr>
+                <!--Cabeceras-->
+                <th>Cantidad</th>
+                <th>Nombre producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+
+
+        <!--Filas de datos-->
+        <tbody>
+        <!---->
+            <tr>
+                <td>2</td>
+                <td>Microprocesador</td>
+                <td>250$</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Placa base</td>
+                <td>300$</td>
+            </tr>
+
+            <tr>
+                <td>8</td>
+                <td>Memoria ram</td>
+                <td>500$</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>Tarj. gráfica</td>
+                <td rowspan="2">1000$</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>Tarj. sonido</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+        <!--Pie de la tabla-->
+            <tr>
+                <td colspan="2">Total de la compra</td>
+                <td>3050$</td>
+            </tr>
+        </tfoot>
+
+    </table>
+</body>
+
+</html>
