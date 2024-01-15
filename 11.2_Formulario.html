@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs</title>
+</head>
+
+<body>
+    <form>
+        <label for="input1">Caja texto:</label>
+        <input type="text" name="input1" id="input1">
+        <br><br>
+
+        <label for="input2">Contraseña:</label>
+        <input type="password" name="input2" id="input2">
+        <br><br>
+
+
+        <label for="busca">Buscar:</label>
+        <input type="search" name="busca" id="busca">
+        <br><br>
+
+        <!--OJO este campo no se ve visualmente pero si desde las herramientas de desarrollo. -->
+        <input type="hidden" name="oculto" id="oculto" value="web">
+
+
+        <label for="fecha">Fecha:</label>
+        <input type="date" name="fecha" id="fecha">
+        <br><br>
+
+        <label for="hora">Hora:</label>
+        <input type="time" name="hora" id="hora">
+        <br><br>
+
+        <label for="fechahora">Fecha y hora:</label>
+        <input type="datetime-local" name="fechahora" id="fechahora">
+        <br><br>
+
+        <label for="bdaymonth">Mes-año</label>
+        <input type="month" name="bdaymonth" id="bdaymonth">
+        <br><br>
+
+        <label for="week">Semana - año</label>
+        <input type="week" name="week" id="week">
+        <br><br>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <br><br>
+
+        <label for="edad">Edad (0-120):</label>
+        <input type="number" name="email" id="email" min="0" max="120">
+        <br><br>
+
+        <label for="phone">Teléfono:</label>
+        <input type="tel" name="phone" id="phone" pattern="[0-9]{9}">
+        <br><br>
+
+        <label for="vol">Volumen (0-50):</label>
+        <input type="range" id="vol" name="vol" min="0" max="50">
+        <br><br>
+
+        <label for="favcolor">Color:</label>
+        <input type="color" id="favcolor" name="favcolor">
+        <br><br>
+
+        <label for="homepage">Web:</label>
+        <input type="url" id="homepage" name="homepage">
+        <br><br>
+
+        <label for="myfile">Adjunta el fichero:</label>
+        <input type="file" id="myfile" name="myfile">
+        <br><br>
+
+        <!--OJO tienen que tener distinto name!!!-->
+        <input type="checkbox" name="vehicle1" id="vehicle1" value="Bike">
+        <label for="vehicle1">Bicicleta</label><br>
+        <input type="checkbox" name="vehicle2" id="vehicle2" value="Car">
+        <label for="vehicle2">Coche</label><br>
+        <input type="checkbox" name="vehicle3" id="vehicle3" value="Boat">
+        <label for="vehicle3">Barco</label>
+        <br><br>
+
+        <!--OJO tienen que tener el mismo name!!!-->
+        <input type="radio" name="fav_language" id="language1" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" name="fav_language" id="language2" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" name="fav_language" id="language3" value="JavaScript">
+        <label for="javascript">JavaScript</label>
+        <br><br>
+
+        <input type="button" id="btn1" onclick="alert('Es un boton común')" value="Botón">
+        <br><br>
+        <input type="image" id="img" src="https://www.w3schools.com/html/img_submit.gif" alt="Submit" width="48"
+            height="48">
+        <br><br>
+        <input type="submit" id="btn2" value="Enviar formulario">
+        <input type="reset" id="btn3" value="Borrar formulario">
+        <br><br>
+    </form>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/11.St_Formularios.css">
+</head>
+
+<body>
+    <form action="" method="post">
+        <label for="idUsu">Identificador de usuario <span>(*)</span></label>
+        <input type="text" name="idUsu" id="idUsu" required placeholder="Tu telefono o email">
+        <br>
+        <br>
+        <label for="pass">Password <span>(*)</span></label>
+        <input type="password" name="pass" id="pass" required>
+        <br>
+        <br>
+        <label for="idUsu">Nombre por defecto <span>(*)</span></label>
+        <input type="text" name="nomDef" id="nomDef" value="readonly solo lectura" readonly>
+        <input type="text" name="nomDef2" id="nomDef2" value="disabled deshabilitado" disabled>
+        <input type="hidden" name="oculto" value="valor campo oculto">
+        <br>
+        <br>
+        <!--OJO tienen que tener distinto name-->
+        <input type="checkbox" name="individual" id="individual">
+        <label for="individual">Individual</label>
+        <input type="checkbox" name="pareja" id="pareja">
+        <label for="pareja">Pareja</label>
+        <input type="checkbox" name="grupo" id="grupo">
+        <label for="grupo">Grupo</label>
+        <br>
+        <br>
+        <input type="number" name="edad" id="edad" min="18" max="100">
+        <br>
+        <br>
+        <label for="desc">Descripccion</label>
+        <textarea name="desc" id="desc" cols="30" rows="10"
+            placeholder="Aclaracion tienes que interaccionar con el cuadro"></textarea>
+        <br>
+        <br>
+        <label for="desc">Con datalist</label>
+        <input list="modulos" id="smr" name="smr">
+        </list>
+        <datalist id="modulos">
+            <option value="AW"></option>
+            <option value="MME"></option>
+            <option value="SOR"></option>
+            <option value="EIE"></option>
+            <option value="SR"></option>
+        </datalist>
+        <br>
+        <br>
+        <label for="smr2">Select simple</label>
+        <select name="smr2" id="smr2">
+            <option value="apw"></option>
+            <option value="mme"></option>
+            <option value="so"></option>
+            <option value="fol"></option>
+        </select>
+        <br>
+        <br>
+        <!--OJO tienen que tener mismo name-->
+        <input type="radio" name="sexo" id="hombre">
+        <label for="sexo">Hombre</label>
+        <input type="radio" name="sexo" id="mujer">
+        <label for="sexo">Mujer</label>
+        <br>
+        <br>
+        <!--Tienen que estar denrto del formulario-->
+        <input type="reset" value="Limpieza datos">
+        <input type="submit" value="Enviar">
+
+    </form>
+</body>
+
+</html>
